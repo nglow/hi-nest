@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { MoviesModule } from '../../src/movies/movies.module';
+import { MoviesModule } from "../../src/movies/movies.module";
 import { ValidationPipe } from '@nestjs/common';
 
 describe('AppController (e2e)', () => {
